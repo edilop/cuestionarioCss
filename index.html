@@ -21,8 +21,67 @@
     </header>
     <main>
         <form action="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-            
-
+            <!-- Student Info section -->
+            <section role="region" aria-labelledby="studen-info">
+                <h2>Studen Info</h2>
+                <div>
+                    <label for="">Name</label>
+                    <input type="text">
+                    
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="">D.O.B
+                        <span>(Date of Birth)</span>
+                    </label>
+                    <input type="date">
+                </div>
+            </section>
+            <!-- html Question section -->
+            <section role="region">
+                <h2>HTML</h2>
+                <div>
+                    <h3>1</h3>
+                    <!-- question 1 -->
+                    <fieldset>
+                        <legend>
+                            The legend element represents a caption for the content of its parent fieldset element
+                        </legend>
+                        <ul>
+                            <li>
+                                <label for="">True</label>
+                                <input type="radio">
+                            </li>
+                            <li>
+                                <label for="">False</label>
+                                <input type="radio">
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <!-- Question 2 -->
+                <div>
+                    <h3>2</h3>
+                    <fieldset>
+                        <legend>
+                            A label element nesting an input element is required to have afor attribute with the same value as the input's id
+                        </legend>
+                        <ul>
+                            <li>
+                                <label for="">True</label>
+                                <input type="radio">
+                            </li>
+                            <li>
+                                <label for="">False</label>
+                                <input type="radio">
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+            </section>
         </form>
     </main>
     <footer>
