@@ -8,117 +8,26 @@
     <title>Accessibility Quiz</title>
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
+        <!-- logo -->
         <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp" id="logo">
-        <h1>HTML/CSS QUIZ</h1>
+        <h1>HTML/CSS Quiz</h1>
+        <!-- enlaces de navegación -->
         <nav>
             <ul>
                 <li> <a href="#student-info">INFO</a></li>
-                <li> <a href="#html-question">HTML</a></li>
-                <li> <a href="#css-question">CSS</a></li>
+                <li> <a href="#html-questions">HTML</a></li>
+                <li> <a href="#css-questions">CSS</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Cuerpo del cuestionario -->
     <main>
-        <form action="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-            <!-- Student Info section -->
-            <section role="region" aria-labelledby="studen-info">
-                <h2>Studen Info</h2>
-                <div>
-                    <label for="">Name</label>
-                    <input type="text">
-                    
-                </div>
-                <div>
-                    <label for="">Email</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="">D.O.B
-                        <span>(Date of Birth)</span>
-                    </label>
-                    <input type="date">
-                </div>
-            </section>
-            <!-- html Question section -->
-            <section role="region">
-                <h2>HTML</h2>
-                <div>
-                    <h3>1</h3>
-                    <!-- question 1 -->
-                    <fieldset>
-                        <legend>
-                            The legend element represents a caption for the content of its parent fieldset element
-                        </legend>
-                        <ul>
-                            <li>
-                                <label for="">True</label>
-                                <input type="radio">
-                            </li>
-                            <li>
-                                <label for="">False</label>
-                                <input type="radio">
-                            </li>
-                        </ul>
-                    </fieldset>
-                </div>
-                <!-- Question 2 -->
-                <div>
-                    <h3>2</h3>
-                    <fieldset>
-                        <legend>
-                            A label element nesting an input element is required to have afor attribute with the same value as the input's id
-                        </legend>
-                        <ul>
-                            <li>
-                                <label for="">True</label>
-                                <input type="radio">
-                            </li>
-                            <li>
-                                <label for="">False</label>
-                                <input type="radio">
-                            </li>
-                        </ul>
-                    </fieldset>
-                </div>
-            </section>
-            <!-- CSS section -->
-            <section>
-                <h3>CSS</h3>
-                <!-- question block -->
-                <div>
-                    <!-- first css question -->
-                    <div>
-                        <label for="">
-                            Can the CSS margin property accept negative values?
-                        </label>
-                    </div>
-                    <div>
-                        <select name="" id="">
-                            <option value="">Select an option</option>
-                            <option value="">Yes</option>
-                            <option value="">No</option>
-                        </select>
-                    </div>
-                    <!-- Questions box-->
-                    <div>
-                        <label for="">Do you have any questions:</label>
-                    </div>
-                    <div>
-                        <textarea name="" id="" rows="5" cols="30" placeholder="Who is flexbox..."></textarea>
-                    </div>
-                </div>
-            </section>
-            <button type="submit">Send</button>
-        </form>
+        
     </main>
-    <footer>
-        <address>
-            <a href="https://freecodecamp.org">freeCodeCamp</br></a>
-            San Francisco</br>
-            California</br>
-            USA</br>
-        </address>
-    </footer>
+
+    
 </body>
+
 </html>
