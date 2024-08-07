@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    margin: 0;
+    top: 0;
 }
 
 #logo {
@@ -68,6 +68,14 @@ nav > ul > li > a:hover {
     background-color: #dfdfe2;
     color: #1b1b32;
 }
+
+/* Cuerpo de encuesta */
+main {
+    padding-top: 50px;
+}
+/* Student info */
+
+
 
 
 
