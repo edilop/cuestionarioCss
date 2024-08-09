@@ -25,17 +25,73 @@
     <!-- Cuerpo del cuestionario -->
     <main>
         <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+            <!-- Información del estudiante -->
             <section role="region" aria-labelledby="student-info">
                 <h2 id="student-info">Student Info</h2>
                 <div class="info">
-                    <label for="">Name</label>
-                    <input type="text">
+                    <label for="student-name">Name:</label>
+                    <input type="text" name="student-name" id="student-name">
+                </div>
+                <div class="info">
+                    <label for="student-email">Email:</label>
+                    <input type="email" name="student-email" id="student-email">
+                </div>
+                <div class="info">
+                    <label for="date-birth">Date of Birth:</label>
+                    <input type="date" name="birth-date" id="birth-date">
                 </div>
             </section>
+            <!-- html questions -->
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">HTML</h2>
+                <!-- html pregunta 1 -->
+                <div class="question-block">
+                    <h3>1</h3>
+                    <fieldset class="question" name="html-question-one">
+                        <legend>The legend element represents a caption for the content of its parent fieldset element
+                        </legend>
+                        <ul class="answer-list">
+                            <li>
+                                <label for="q1-a1">
+                                    <input type="radio" name="q1" id="q1-a1" value="true">
+                                    True
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q1-a2">
+                                    <input type="radio" name="q1" id="q1-a2" value="false">
+                                    False
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <!-- html pregunta 2 -->
+                    <div class="question">
+                        <h3>2</h3>
+                        <fieldset class="question">
+                            <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id</legend>
+                            <ul class="answer-list">
+                                <li>
+                                    <label for="q2-a1">
+                                        <input type="radio" id="q2-a1" name="q2" value="true">
+                                        True
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a2">
+                                        <input type="radio" name="q2" id="q2-a2" value="false">
+                                        False
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </div>
+            </section>
+            <!-- CSS questions -->
+            
         </form>
     </main>
-
-    
 </body>
 
 </html>
