@@ -1,8 +1,9 @@
 /* Configuraciones generales */
-* {
-
+@media (prefers-reduced-motion: no-preference) {
+    * {
+    scroll-behavior: smooth;
+    }
 }
-
 body {
     background-color: #f5f6f7;
     color: #1b1b32;
@@ -129,6 +130,21 @@ input {
 .answer-list {
     list-style: none;
     padding: 0;
+}
+
+.formrow {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+button {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background-color: #d0d0d5;
+    border: 3px solid #3b3b4f;
 }
 
 
